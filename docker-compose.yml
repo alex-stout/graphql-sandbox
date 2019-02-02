@@ -1,0 +1,13 @@
+version: "3"
+services:
+  db:
+    container_name: soccer-db
+    image: "bitnami/mongodb:latest"
+    environment:
+      - MONGODB_DATABASE=soccer
+      - MONGODB_USERNAME=proto
+      - MONGODB_PASSWORD=password123
+    volumes:
+      - ./mongodata:/bitnami
+    ports:
+      - "27017:27017"

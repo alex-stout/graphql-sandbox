@@ -61,4 +61,7 @@ typings/
 .next
 
 # data files
-.csv
+*.csv
+
+# mongo data files
+mongodata

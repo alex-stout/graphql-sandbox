@@ -1,0 +1,30 @@
+{
+  "name": "graphql-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-stout/graphql-sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-stout/graphql-sandbox/issues"
+  },
+  "homepage": "https://github.com/alex-stout/graphql-sandbox#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "csvtojson": "^2.0.8",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "generate-schema": "^2.6.0",
+    "graphql": "^14.1.1",
+    "mongoose": "^5.4.7",
+    "morgan": "^1.9.1"
+  }
+}
